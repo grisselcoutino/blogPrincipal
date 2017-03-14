@@ -1,0 +1,75 @@
+@media only screen and (min-width:300px) and (max-width:560px){
+	.bg-info{
+	 	background-color: rgba(255, 255, 255, 0.0);
+	  	width: 100%;
+	 	z-index: 1;
+	 	/*forma*/
+	 	 border-bottom: 45vh solid rgba(255, 255, 255, 0.8);
+	 	border-left: 0px solid transparent;
+		bottom: 0 !important;
+	 	margin-top: 55vh;
+	}
+	.imgPost{
+	  	height: 100vh;
+	}
+	.infoPost{
+	  	position: absolute;
+	  	text-align: left;
+	 	padding: 0.5em 1em;
+	}
+	.title{
+	    margin-top: .7em;
+	    font-size: 1.3em;
+	}
+	#lastPost{
+	  	height: 100vh;
+	  	width: 100%;
+	}
+	.hr-orange {
+	    margin-bottom: 1em;
+	    float: left;
+	    margin-top: 10px !important;
+	}
+	#leer {
+	    margin-top: 0.7em;
+	}
+	.hr-orangePost {
+		margin-top: 0.7em;
+	    margin-bottom: .7em;
+	}
+}
+
+@media only screen and (min-width:561px) and (max-width:992px){
+	.infoPost {
+		padding: 2.2em 2.5em 1em 0.5em; 
+	}
+	.title{
+		font-size: 20px;
+	}
+	.hr-orange {
+	    margin-bottom: 1.5em;
+	}
+	.bg-info{
+		width: 60%;
+	}
+	.hr-orangePost {
+		margin-bottom: 0.5em;
+		margin-top: 10px;
+	}
+	#leer {
+    margin-top: 0.9em;
+}
+}
+
+
+@media only screen and (min-width:993px) and (max-width:1280px){
+	.title {
+	    margin-top: 1em;
+	    font-size: 25px
+	}
+	.infoPost {
+	    position: absolute;
+	    text-align: right;
+	    padding: 1.6em 2em 1em 0.2em;
+	}
+}
